@@ -1,0 +1,25 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc --watch && node --watch dist/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^6.0.1",
+    "commander": "^15.1.0",
+    "figlet": "^1.13.0",
+    "inquirer": "^14.3.1",
+    "ora": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
